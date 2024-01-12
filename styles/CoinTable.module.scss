@@ -1,0 +1,265 @@
+$font-fam: Oxanium, sans-serif;
+
+
+.container{
+  width:100%;
+  display: flex;
+  padding-top:13px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom:30px;
+  gap:10px;
+}
+
+.top_of_table{
+  width:94%;
+  padding-top:15px;
+  padding-left:20px;
+  padding-bottom:20px;
+  background-color: #400E32;
+  border:1px solid #d30073;
+  border-radius:10px;
+}
+
+.name{
+  display:flex;
+  height:4vh;
+  font-family:$font-fam;
+  font-size: 20px;
+  font-weight: 700;
+  width:100%;
+}
+.table_nav{
+  display:flex;
+  width:100%;
+  align-items: center;
+
+  .left_nav{
+    width:70%;
+    button{
+      font-size: 15px;
+      width:10%;
+      margin-right:60px;
+    }
+    /* YourComponent.module.css */
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #d30073;
+  width:100%;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color:  #400E32;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdownContent button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  text-align: left;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.dropdownContent button:hover {
+  border:1px solid #d30073;
+}
+
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+  }
+
+  .right_nav{
+    width:30%;
+    .search_bar{
+      width:80%;
+      height:5vh;
+      display: flex;
+      float:right;
+      border-radius: 12px;
+      border: 1px solid #FF00B8;
+      background-color: rgba(211, 0, 116, 0.40); 
+      font-family: Oxanium, sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      align-items: center;
+      padding-right: 13px;
+      margin-right: 20px;
+      input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        border: none; /* Removes visible border */
+        background-color: transparent; /* Transparent background */
+        border-color: transparent;
+        outline: none;
+        font-weight: 700;
+        color: #ffffff; /* White text */
+      }
+  
+      
+    input[type="text"]::placeholder {
+      color:white;
+      opacity: 0.5;
+    }
+    }
+  
+  }
+}
+
+.table{
+  background-color: #d30073;
+}
+
+.table_data{
+  background-color: #400E32;
+  border:1px solid #d30073;
+}
+
+.table, .table_data{
+  display: flex;
+  width:95%;
+  height:7vh;
+  align-items: center;
+  border-radius:10px;
+  font-family: $font-fam;
+  font-size: 17px;
+  font-weight: 700;
+  .no{
+    display: flex;
+    justify-content: center;
+    width:3%;
+  }
+  
+  .coin{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width:23%;
+    p{
+      padding-left:13px;
+    }
+    img{
+      width:40px;
+      height:40px;
+    }
+  }
+  
+  .status{
+    display: flex;
+    justify-content: center;
+    width:8%;
+
+    
+  }
+  .ongoing{
+    color:rgb(40, 217, 40);
+  }
+
+  .ended{
+    color:red;
+  }
+
+  .upcoming{
+    color:rgb(246, 238, 5);
+  }
+
+  
+  .an_hour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:5%;
+    flex-direction: column;
+    .p2{
+      font-size: 11px;
+    }
+  }
+  
+  .twofo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:8%;
+    flex-direction: column;
+
+    .p2{
+      font-size: 11px;
+    }
+  }
+  
+  .chain{
+    display: flex;
+    justify-content: center;
+    width:6%;
+  }
+  
+  .stars{
+    display: flex;
+    justify-content: center;
+    width:8%;
+    
+  }
+  
+  .market{
+    display: flex;
+    width:8%;
+    justify-content: center;
+    div{
+      padding: 0 10px;
+      border-radius: 5px;
+      background-color: #d30073;
+    }
+  }
+  
+  .launch{
+    display: flex;
+    justify-content: center;
+    width:8%;
+  }
+  
+  .member{
+    display: flex;
+    justify-content: center;
+    width:8%;
+  }
+  
+  .votes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    // width:8%;
+    gap:5px;
+    button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:80%;
+      height:2.8vh;
+      font-size: small;
+    }
+  }
+  
+  // .wishlist{
+  //   width: 5%;
+  // }
+}
+
+
+

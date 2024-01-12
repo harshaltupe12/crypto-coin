@@ -1,0 +1,190 @@
+$footer-bg: #400E32;
+$font-fam: Oxanium, sans-serif;
+
+    .box {
+    
+    
+        .rectangle {
+        background-color: #7b084c;
+        border: 1px solid;
+        border-color: #d30073;
+        border-radius: 10px;
+        height: 3rem;
+        width: 16rem;
+        display: flex;
+        align-items: center;
+        }
+
+    
+    }
+
+    
+    .enterEmail{
+        display: flex;
+        width: 60%;
+        padding: 4px 10px 0px 10px;
+        height: 100%;
+        border-radius: 0px 10px 10px 0px;
+        border: none;
+        background: #7B084C;
+    
+        font-family: Oxanium, sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    
+        color: #ffffff; /* White text */
+        outline: none;
+        display: flex; /* Enable icon positioning */
+        align-items: center; /* Vertically center icon */
+
+        input[type="text"] {
+            width: 100%;
+            // padding: 5px;
+            border: none; /* Removes visible border */
+            background-color: transparent; /* Transparent background */
+            border-color: transparent;
+            outline: none;
+            color: #ffffff; /* White text */
+        }
+    }
+
+    .button {
+        background-color: #D30074; /* Pink button background */
+        color: #fff; /* White text color */
+        // padding: 10px 20px;
+        border: none;
+        border-radius: 5px; /* Rounded button corners */
+        text-decoration: none;
+        font-weight: bold; /* Bold text for emphasis */
+        cursor: pointer; /* Indicate interactivity */
+        height: 100%;
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .button:hover {
+        background-color: #e05588; /* Slightly darker pink on hover */
+    }
+    
+
+// fuck u footer
+
+
+.footer {
+    width: 100%;
+    background-color:#400E32;
+    font-family: $font-fam;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center; 
+    color: aliceblue;
+
+    }
+
+.cpr{
+    color:#FFFFFFB2;
+    font-size: 15px;
+    padding-bottom: 10px;
+
+}
+// &:hover {
+//     border-color: #999;
+// }
+.coinpresale{
+    display: flex;
+    flex-basis:450px;
+    li{
+        list-style-type: none;
+        margin-top:10px;
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+
+}
+.col {  
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+    // float: right;
+    box-sizing: border-box;
+    padding: 20px;
+    }
+.col h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 17px;
+    padding: 10px 0;
+    // text-transform: uppercase;
+    }
+.col ul {
+    list-style-type: none;
+    padding: 0;
+    }
+.col ul li {
+    color: #FFFFFFB2;
+    // font-size: 12px;
+    padding: 5px 0px;
+    }
+.ul li:hover {
+    cursor: pointer;
+    color: lightgray;
+    font-weight: bold;
+    }
+     
+  
+  @media only screen and (min-width: 1140px) {
+    .contain {
+    //   width: 1200px; 
+    display: flex;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+        .contain{
+        //   width: 1000px;
+          display: flex;
+        }
+        
+  }
+  @media only screen and (max-width: 950px) {
+
+    .contain{
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;
+    }
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h2 {
+      font-size: 20px;
+    }
+    .footer .col ul li {
+      font-size: 15px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .contain{
+        display: flex;
+        // background-color:blue ;       
+    }
+    .footer .col {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .contain{
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+  }
+  

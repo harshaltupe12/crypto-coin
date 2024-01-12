@@ -1,0 +1,122 @@
+$font-fam: Oxanium, sans-serif;
+
+.header {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size:smaller;
+    font-family: $font-fam;
+    
+    background-color: #760657;
+    
+  }
+  
+  .topbar {
+    // padding-top: 2px;
+    color: white;
+    opacity:0.8; 
+    display: flex;
+    width: 100%;
+    
+  }
+  
+  .topbar_left {
+    width:22%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+  }
+
+  .container {
+    overflow: hidden;
+    flex-grow: 1; 
+  }
+  
+  .topbar_middle {
+    width:60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: auto; 
+    white-space: nowrap;
+    animation: scroll 10s linear infinite; 
+    
+  }
+
+
+  
+  @keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+  
+  .topbar_right {
+    width:18%;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+  }
+
+  .col1{
+    margin-right: 13px;
+  }
+  
+
+
+
+// //   responsive
+@media only screen and (min-width: 1139px) {    
+    .header {
+        width: 100%;
+        display: flex;
+        font-size: x-small;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .header{
+        width: 100%;
+        display: flex;
+        font-size:9px;
+    }
+
+  
+        
+  }
+  @media only screen and (max-width: 983px) {
+    .header{
+        display: flex;
+        font-size: 8px;
+    }
+
+  }
+
+ 
+    
+  @media only screen and (max-width: 886px) {
+    
+
+    .topbar{
+      font-size: 7px;
+    }
+
+    .topbar_left{ 
+      width:23%;
+      padding-left: 2%;
+    }
+    .topbar_right{
+      padding-right: 2%;
+    }
+  }
+
+  @media only screen and (max-width: 768px){
+    .header{
+      display: none;
+    }
+  }
+
+//finally bc trending bar done 
