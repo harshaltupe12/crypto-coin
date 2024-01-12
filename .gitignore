@@ -2,6 +2,7 @@
 logs
 *.log
 npm-debug.log*
+build-manifest.json
 
 # Runtime data
 pids
@@ -29,6 +30,8 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+server
+cache
 
 # Optional npm cache directory
 .npm
