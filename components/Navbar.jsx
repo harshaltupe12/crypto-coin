@@ -27,8 +27,8 @@ const Navbar = () => {
           <FaSearch color='#ffffff'/>
         </div>
         <div className={styles.btn_container}>
-        <a href="/submitCoin" className={styles.nav_button1}><button >Submit Coin</button></a>
-        <a href="/login" className={styles.nav_button2}><button>Log In</button></a>
+        <Link href="/submitCoin" className={styles.nav_button1}><button >Submit Coin</button></Link>
+        <Link href="/login" className={styles.nav_button2}><button>Log In</button></Link>
         </div>
       
     </nav>
