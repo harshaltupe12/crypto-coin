@@ -241,7 +241,7 @@ export default function Home() {
       {/* <button>PROMOTED COIN</button> */}
       <center><div className='promoted-name'>PROMOTED COIN</div></center>
       <div className='promoted-div'>
-      {chunkedCards.map((row, rowIndex) => (
+      {/* {chunkedCards.map((row, rowIndex) => (
         <span key={rowIndex}>
           {row.map((card, index) => (
             <PromotedCoin
@@ -252,7 +252,8 @@ export default function Home() {
             />
           ))}
         </span>
-      ))}
+      ))} */}
+      <PromotedCoin/>
       </div>
     </>
   )
