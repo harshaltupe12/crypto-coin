@@ -1,0 +1,198 @@
+.main{
+    width: 1px / 2px;
+    height: 170px;
+    margin: 15px 50px 15px 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #400E32;
+    border: 1px solid #c12c97;
+    .usercard{
+        display: flex;
+        justify-content: space-between;
+        .left{
+            padding: 10px;
+            width: 500px;
+            height: 130px;
+            display: flex;
+            .lLeft{
+                flex: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .lImg{
+                    height: 70px;
+                    width: 70px;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 50%;
+                        object-fit: cover;
+                        border: 3px solid goldenrod;
+                    }
+                }
+            }
+            .rLeft{
+                flex:4;
+                .top{
+                    .title{
+                        font-weight: 900;
+                        font-size:x-large;
+                        .subtitle{
+                            font-size: small;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+                .mid{
+                    margin-top: 5px;
+                    display: flex;
+                    .midleft{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        flex: 1;
+                        .name{
+                            width: 70px;
+                            background-color: #D30074;
+                            text-align: center;
+                            padding: 3px;
+                            border-radius: 5px;
+                            font-weight: 600;
+                            font-size: x-small;
+                        }
+                        .presale{
+                            width: 70px;
+                            background-color: #D30074;
+                            text-align: center;
+                            padding: 3px;
+                            border-radius: 5px;
+                            font-weight: 600;
+                            font-size: x-small;
+                        }
+                        .status{
+                            width: 70px;
+                            color: #00FF19;
+                            background-color: #D30074;
+                            text-align: center;
+                            padding: 3px;
+                            border-radius: 5px;
+                            font-weight: 600;
+                            font-size: x-small;
+                        }
+                    }
+                    .midright{
+                        flex:3;
+                        display: flex;
+                        flex-direction: column;
+                        .top{
+                            flex: 1;
+                            display: flex;
+                            background: #400E32;
+                            border-radius: 10px;
+                            padding: 2px;
+                            height: 30px;
+                            .container{
+                                display: flex;
+                                justify-content: space-evenly;
+                                .image{
+                                    margin: 0 7px 0 7px;
+                                }
+                            }
+                        }
+                        .bottom{
+                            flex: 1;
+                            padding: 2px;
+                            height: 30px;
+                            display: flex;
+                            margin-top: 10px;
+                            align-items: center;
+                            border-radius: 10px;
+                            border:2px solid #c12c97;
+                            background-color: #551242;
+                            justify-content: space-around;
+                            .number{
+                                margin-left: 20px;
+                                font-weight: 800;
+                                color: #00FF19;
+                            }
+                            img{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                .bottom{
+                    width: 260px;
+                    height: 30px;
+                    margin-top: 5px;
+                    font-weight: 900;
+                    display: flex;
+                    font-size: small;
+                    gap: 10px;
+                }
+            }
+        }
+        .right{
+            // background-color: #848080;
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 10px;
+            .top{
+                flex: 3;
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px;
+                .up, .down{
+                    flex: 1;
+                    padding: 5px;
+                    display: flex;
+                    font-size: small;
+                    font-weight: bold;
+                    background: #64154e;
+                    border: 2px solid #c12c97;
+                    justify-content: space-around;
+                    border-radius: 10px 10px 0px 0px;
+                    .col1{
+                        display: flex;
+                        align-items: center;
+                        .btn{
+                            background-color: #D30074;
+                            border: 2px solid #ff00b7;
+                            padding: 5px;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+                .down{
+                    flex: 1;
+                    background: #64154e;
+                    border: 2px solid #c12c97;
+                    border-top: 0px;
+                    border-radius: 0px 0px 10px 10px;
+                }
+            }
+            .bottom{
+                flex: 1;
+                margin-top: 10px;
+                .container{
+                    display: flex;
+                    justify-content: space-around;
+                    margin-top: 10px;
+                    .btn{
+                        background: #D30074;
+                        border: 2px solid #ff00b7;
+                        padding: 5px;
+                        width: 60px;
+                        text-align: center;
+                        font-size: small;
+                        font-weight: bold;
+                        border-radius: 10px;
+
+                    }
+                }
+            }
+        }
+    }
+}

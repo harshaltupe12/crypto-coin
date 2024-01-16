@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@ramonak/react-progress-bar": "^5.2.0",
@@ -20,6 +21,8 @@
     "react-dom": "^18",
     "react-hot-toast": "",
     "react-icons": "^4.12.0",
+    "react-social-icons": "^6.7.0",
+    "react-social-media-embed": "^2.4.1",
     "sass": "^1.69.5"
   },
   "devDependencies": {
