@@ -3,6 +3,7 @@ import style from '../styles/CoinPage.module.scss'
 import React from 'react'
 import DescriptionCard from '@/components/DescriptionCard'
 import PresaleAnalytic from '@/components/PresaleAnalytic'
+import TokenRoadmap from '@/components/TokenRoadmap'
 
 const CoinPage = () => {
   return (
@@ -11,6 +12,7 @@ const CoinPage = () => {
         <UserCard/>
         <DescriptionCard/>
         <PresaleAnalytic/>
+        <TokenRoadmap/>
         </div>
     </div>
   )
