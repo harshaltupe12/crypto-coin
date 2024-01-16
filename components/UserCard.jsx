@@ -124,5 +124,4 @@ const UserCard = () => {
     </div>
   )
 }
-
 export default UserCard

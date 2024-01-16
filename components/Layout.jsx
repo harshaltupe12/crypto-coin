@@ -8,6 +8,7 @@ import MidBanner from './MidBanner';
 import BottomBanner from './BottomBanner';
 import  CoinTable  from './CoinTable';
 import CoinPage from '@/pages/CoinPage';
+import DescriptionCard from './DescriptionCard';
 const Layout = ({ children }) => {
   return (
     <div>
@@ -20,9 +21,9 @@ const Layout = ({ children }) => {
             <Navbar/>
         </header>
         <main className='main-container'>
-            {/* <TopBanner/>
+            <TopBanner/>
             {children}
-            <CoinTable/> */}
+            <CoinTable/>
             <CoinPage/>
         </main>
 
