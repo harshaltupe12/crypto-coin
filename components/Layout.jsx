@@ -22,9 +22,8 @@ const Layout = ({ children }) => {
         </header>
         <main className='main-container'>
             <TopBanner/>
-            {children}
-            <CoinTable/>
             <CoinPage/>
+            {children}
         </main>
 
         <footer>

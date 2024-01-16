@@ -4,6 +4,8 @@ import React from 'react'
 import DescriptionCard from '@/components/DescriptionCard'
 import PresaleAnalytic from '@/components/PresaleAnalytic'
 import TokenRoadmap from '@/components/TokenRoadmap'
+import TopBuyer from '@/components/TopBuyer'
+import { CoinTable, PromotedCoin } from '@/components'
 
 const CoinPage = () => {
   return (
@@ -13,6 +15,8 @@ const CoinPage = () => {
         <DescriptionCard/>
         <PresaleAnalytic/>
         <TokenRoadmap/>
+        <TopBuyer/>
+        <CoinTable/>
         </div>
     </div>
   )

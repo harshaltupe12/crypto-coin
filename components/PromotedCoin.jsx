@@ -16,7 +16,6 @@ const PromotedCoin = () => {
           <span className={styles.subTitle}>({item.subtitle})</span>
           </div>
         </div>
-
         <div className={styles.mid}>
           <div className={styles.promot}>
             Promot
@@ -24,21 +23,18 @@ const PromotedCoin = () => {
               {item.promote}
             </span>
           </div>
-
           <div className={styles.vote}>
             vote
             <span className={styles.voteS}> 
               {item.vote}
             </span>
           </div>
-
           <div className={styles.launch}>
             launch
             <span className={styles.launchS}>
               {item.launch}
             </span>
           </div>
-
           <div className={styles.chain}>
             chain
             <span className={styles.chainS}>
@@ -46,7 +42,6 @@ const PromotedCoin = () => {
             </span>
           </div>
         </div>
-
         <div className={styles.bottom}>
           <div className={styles.title}>
             Presale
