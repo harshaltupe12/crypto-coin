@@ -185,6 +185,7 @@
                         border: 2px solid #ff00b7;
                         padding: 5px;
                         width: 60px;
+                        height: 20px;
                         text-align: center;
                         font-size: small;
                         font-weight: bold;
@@ -194,5 +195,96 @@
                 }
             }
         }
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .main{
+    font-size: x-small;
+    width: 330px;
+    height: max-content;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #400E32;
+    border: 1px solid #c12c97;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    .usercard{
+        font-size: x-small;
+        display: flex;
+        flex-direction: column;
+        .left{
+            .lLeft{
+                width: 50px;
+                height: 50px;
+                margin-left: -35px;
+                border-radius: 50%;
+                object-fit: contain;
+                font-size: x-small;
+                display: flex;
+            }
+            .rLeft{
+                .top{
+                    margin-left: 10px;
+                    border-radius: 10px;
+                    .container{
+                        width: 250px;
+                        border-radius: 10px;
+                    }
+                }
+                .mid{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .midleft{
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 10px;
+                        margin-bottom: 10px;
+                    }
+                    .midright{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: -10px;
+                        width: max-content;
+                        padding-right: -10px;
+                    }
+                    .bottom{
+                        padding-left: -10px;
+                    }
+                }
+                .bottom{
+                    display: none;
+                }
+            }
+        }
+        .right{
+            display: flex;
+            flex-direction: column;
+            margin-left: -20px;
+            width: 350px;
+            .bottom{
+                .container{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-left: 25px;
+                    height: 40px;
+                    width: 300px;
+                    .btn{
+                        background: #D30074;
+                        height: 20px;
+                        width: 50px;
+                        align-self: center;
+                        text-align: center;
+                        justify-self: center;
+                    }
+                }
+            }
+        }
+    }
     }
 }

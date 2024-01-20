@@ -115,8 +115,8 @@ const UserCard = () => {
                         <div className={style.btn}>
                             Buy
                         </div>
-                        <div className={style.img1}>Image</div>
-                        <div className={style.img2}>Image2</div>
+                        <div className={style.img1}><img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705449600&semt=sph" alt="" height={40} style={{objectFit:'contain', borderRadius:'50%', alignSelf:'center'}} /></div>
+                        <div className={style.img2}><img src="https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?size=338&ext=jpg&ga=GA1.1.632798143.1705449600&semt=sph" alt="" height={40} style={{objectFit:'contain', borderRadius:'50%', alignSelf:'center'}} /></div>
                     </div>
                 </div>
             </div>

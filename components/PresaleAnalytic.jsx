@@ -71,10 +71,10 @@ const PresaleAnalytic = () => {
                         <h1>Audit & KYC</h1>
                     </div>
                     <div className={style.container}>
-                        <div className={style.audit} style={{background:'blue', padding:'10px', borderRadius:'10px'}}>Audit</div>
-                        <div className={style.doxed} style={{background:'#e3cc02', padding:'10px', borderRadius:'10px'}}>Doxxed</div>
-                        <div className={style.kyc} style={{background:'green', padding:'10px', borderRadius:'10px'}}>KYC</div>
-                        <div className={style.safu} style={{background:'#9e3494', padding:'10px', borderRadius:'10px'}}>Safu</div>
+                        <div className={style.audit} style={{background:'blue', padding:'10px', borderRadius:'10px', width:'60px', textAlign:'center'}}>Audit</div>
+                        <div className={style.doxed} style={{background:'#e3cc02', padding:'10px', borderRadius:'10px', width:'60px', textAlign:'center'}}>Doxxed</div>
+                        <div className={style.kyc} style={{background:'green', padding:'10px', borderRadius:'10px', width:'60px', textAlign:'center'}}>KYC</div>
+                        <div className={style.safu} style={{background:'#9e3494', padding:'10px', borderRadius:'10px', width:'60px', textAlign:'center'}}>Safu</div>
                     </div>
                 </div>
             </div>
