@@ -7,3 +7,21 @@
     background-color: #400E32;
     border: 1px solid #c12c97;
 }
+
+@media only screen and (max-width:600px){
+    .main{
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        width: 330px;
+        margin: -15px 16px 5px;
+        .chart{
+            margin-top: -120px;
+            max-width: max-content;
+            max-height: max-content;
+            width: 330px;
+            height: 290px;
+            display: flex;
+        }
+    }
+}

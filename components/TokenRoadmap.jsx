@@ -1,48 +1,33 @@
     import React from 'react'
     import style from '../styles/TokenRoadmap.module.scss'
-    import { FunnelChart  , Tooltip   , Funnel   , LabelList  , Radar , Legend   } from 'recharts';
+    import { PieChart } from 'react-minimal-pie-chart';
     
     const TokenRoadmap = () => {
-        const data = [
-            {
-              "value": 100,
-              "name": "Team",
-              "fill": "#8884d8"
-            },
-            {
-              "value": 70,
-              "name": "Presale",
-              "fill": "#83a6ed"
-            },
-            {
-              "value": 50,
-              "name": "Lequdity",
-              "fill": "#8dd1e1"
-            },
-            {
-              "value": 30,
-              "name": "Treasury development and marketing",
-              "fill": "#82ca9d"
-            },
-          ]
       return (
         <div className={style.main}>
             <div className={style.left}>
                 <div className={style.title}><h1>Tokenoies</h1></div>
                     <div className={style.leftContainer}>
                         <div className={style.leftChart}>
-                        <FunnelChart width={730} height={330}>
-                            <Tooltip />
-                            <Funnel
-                                dataKey="value"
-                                data={data}
-                                isAnimationActive
-                            >
-                                <LabelList position="right" fill="#fff" stroke="none" dataKey="name" />
-                            </Funnel>
-                        </FunnelChart>
+                          <div className={style.chart}>
+                            <PieChart
+                            radius={35}
+                            data={[
+                              { title: 'One', value: 10, color: '#E38627' },
+                              { title: 'Two', value: 15, color: '#C13C37' },
+                              { title: 'Three', value: 20, color: '#6A2135' },
+                            ]}
+                            />
+                        </div>
                         </div>
                         <div className={style.rightinfo}>
+                          <div className={style.team}>Team <span style={{backgroundColor:'green', padding:'3px', borderRadius:'5px'}}>5%</span></div>
+
+                          <div className={style.presale}>Presale<span style={{backgroundColor:'green', padding:'3px', borderRadius:'5px'}}>5%</span></div>
+
+                          <div className={style.liquadity}>Liquadity<span style={{backgroundColor:'green', padding:'3px', borderRadius:'5px'}}>5%</span></div>
+
+                          <div className={style.presale}>Treasure Development and Marketing <span style={{marginLeft:'10px', backgroundColor:'green', padding:'5px', height:'max-content', borderRadius:'5px'}}>5%</span></div>
                         </div>
                     </div>
             </div>

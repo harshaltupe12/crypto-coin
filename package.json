@@ -21,6 +21,7 @@
     "react-dom": "^18",
     "react-hot-toast": "",
     "react-icons": "^4.12.0",
+    "react-minimal-pie-chart": "^8.4.0",
     "react-social-icons": "^6.7.0",
     "react-social-media-embed": "^2.4.1",
     "recharts": "^2.10.4",

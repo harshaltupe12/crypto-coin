@@ -89,3 +89,20 @@
         }
     }
 }
+
+@media only screen and (max-width:600px){
+    .promotedCoin{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 330px;
+        // background: grey;
+        margin-left: -15px;
+        .promotedContainer{
+            width: 220px;
+            display: flex;
+            font-size: x-small;
+        }
+    }
+}
